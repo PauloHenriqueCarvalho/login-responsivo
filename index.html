@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <main>
+        <div class="login">
+            <div class="form-btn">
+                <span onclick="login()">Login</span>
+                <span onclick="register()">Registro</span>
+                <hr id="Indicator">>
+            </div>
+            <form id="LoginForm">
+                <p class="imgPhone"><ion-icon name="phone-portrait-outline"></ion-icon></p>
+                <p class="imgDesk"><ion-icon name="desktop-outline"></ion-icon></p>
+                <input id="usuario" type="text" name="usuario" class="input" placeholder="Usuario">
+                <input id="senha" type="password" name="senha" class="input" placeholder="Senha">
+                <button class="btn" onclick="verificacao()"> <a href="#">Login</a></button>
+            </form>
+            <form id="RegForm">
+                <p class="imgPhone"><ion-icon name="phone-portrait-outline"></ion-icon></p>
+                <p class="imgDesk"><ion-icon name="desktop-outline"></ion-icon></p>
+                <input type="text" name="usuario" class="input" placeholder="Usuario">
+                <input type="email" name="email" class="input" placeholder="Email">
+                <input type="password" name="senha" class="input" placeholder="Senha">
+                <button id="btnReg"> <a href="#">Registro</a></button>
+            </form>
+
+        </div>
+    </main>
+    <script src="./js/login.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicsons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

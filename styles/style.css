@@ -1,0 +1,288 @@
+@media (min-width: 500px) and (max-width: 1920px) {
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        background-color: #ffffff;
+    }
+    
+    
+    .input {
+        width: 100%;
+        height: 30px;
+        margin: 10px 0;
+        padding: 0 10px;
+        border: 1px solid #ccc;
+    }
+    
+    label {
+        padding: 20px;
+    }
+    
+    button{
+        background-color: #fca311;
+        border: none;
+        border-radius: 20px;
+        margin: 30px;
+        height: 50px;
+        width: 200px;
+    
+    }
+    
+    .form-btn span{
+        font-weight: bold;
+        padding: 0 10px;
+        color: #ffba08;
+        cursor: pointer;
+        width: 100px;
+        display: inline-block;
+    }
+    
+    .form-btn{
+            display: inline-block;  
+    }
+    
+    
+    
+    .login {
+        background-color: #14213d;
+        height: 400px;
+        width: 318px;
+        position: relative;
+        text-align: center;
+        padding: 20px 0;
+        margin: auto;
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0,1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .login form {
+        display: grid;
+        max-width: 300px;
+        padding: 0 20px;
+        position: absolute;
+        top: 130px;
+        transition: transform 1s;
+    }
+    
+    form input{
+        width: 100%;
+        height: 30px;
+        margin: 10px 0;
+        background-color: #fca311;
+        border-radius: 10px;
+    }
+    form button a{
+        font-weight: bold;
+        text-decoration: none;
+        color: #e5e5e5;
+        font-size: 20px;
+    }
+    
+    .imgPhone {
+        display: none;
+        color: #fca311;
+        font-size: 30px;
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .imgDesk {
+        display: block;
+        color: #fca311;
+        font-size: 30px;
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    form .btn{
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        margin: 20px 11px;
+    }
+    
+    
+    form .btn:focus{
+        outline: none;
+    }
+    
+    #LoginForm{
+        left: -300px;
+    }
+    #RegForm{
+        left: 0px;
+    }
+    
+    form a{
+        font-size: 12px;
+    }
+    
+    #Indicator{
+        width: 100px;
+        border: none;
+        background-color: #fca311;
+        height: 3px;
+        margin-top: 8px;
+        transform: translate(60px);
+        transition: transform 1s;
+    }
+    
+}
+
+
+@media (max-width: 800px) {
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        background-color: #ffffff;
+    }
+    
+    
+    .input {
+        width: 100%;
+        height: 30px;
+        margin: 10px 0;
+        padding: 0 10px;
+        border: 1px solid #ccc;
+    }
+    
+    label {
+        padding: 20px;
+    }
+    
+    button{
+        background-color: #fca311;
+        border: none;
+        border-radius: 20px;
+        margin: 30px;
+        height: 50px;
+        width: 200px;
+    
+    }
+    
+    .form-btn span{
+        font-weight: bold;
+        padding: 0 10px;
+        color: #ffba08;
+        cursor: pointer;
+        width: 100px;
+        display: inline-block;
+    }
+    
+    .form-btn{
+            display: inline-block;  
+    }
+    
+    
+    
+    .login {
+        background-color: #14213d;
+        height: 400px;
+        width: 318px;
+        position: relative;
+        text-align: center;
+        padding: 20px 0;
+        margin: auto;
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0,1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .login form {
+        display: grid;
+        max-width: 300px;
+        padding: 0 20px;
+        position: absolute;
+        top: 130px;
+        transition: transform 1s;
+    }
+    
+    form input{
+        width: 100%;
+        height: 30px;
+        margin: 10px 0;
+        background-color: #fca311;
+        border-radius: 10px;
+    }
+    form button a{
+        font-weight: bold;
+        text-decoration: none;
+        color: #e5e5e5;
+        font-size: 20px;
+    }
+    
+    .imgPhone {
+        display: block;
+        color: #fca311;
+        font-size: 30px;
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .imgDesk {
+        display: none;
+        color: #fca311;
+        font-size: 30px;
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    form .btn{
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        margin: 20px 11px;
+    }
+    
+    
+    form .btn:focus{
+        outline: none;
+    }
+    
+    #LoginForm{
+        left: -300px;
+    }
+    #RegForm{
+        left: 0px;
+    }
+    
+    form a{
+        font-size: 12px;
+    }
+    
+    #Indicator{
+        width: 100px;
+        border: none;
+        background-color: #fca311;
+        height: 3px;
+        margin-top: 8px;
+        transform: translate(60px);
+        transition: transform 1s;
+    }
+    
+}
+
+
