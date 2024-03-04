@@ -25,7 +25,7 @@ function verificacao(){
         alert("Preencha todos os campos");
     } else {
         if(user.trim() === "adm" || password.trim() === "adm") {
-            window.location.href = ("../pages/poke-page.html");
+            window.location.href = ("./pages/poke-page.html");
         }
         else{
             alert("Usuario ou senha incorreto!");

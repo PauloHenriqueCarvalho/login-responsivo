@@ -1,0 +1,66 @@
+@media (min-width: 500px) and (max-width: 1920px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        text-align: center;
+    }
+
+    div#container {
+        width: 200px;
+        background-color: lightgray;
+        border-radius: 10px;
+        box-shadow: 5px 5px 3px black;
+        margin: 10% auto 10px;
+    }
+    
+    #pic {
+        display: block;
+    }
+    #pic2 {
+        display: block;
+    }
+
+
+    .imgs {
+        display: grid;
+
+    }
+}
+
+@media (max-width: 500px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        text-align: center;
+    }
+
+    div#container {
+        width: 200px;
+        border: 3px solid green;    
+        border-radius: 10px;
+        margin: 10% auto 10px;
+    }
+
+    
+
+
+    #pic {
+        display: block;
+    }
+    #pic2 {
+        display: none;
+    }
+
+    .imgs {
+        display: grid;
+
+    }
+}

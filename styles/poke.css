@@ -1,35 +1,66 @@
 body{
     margin: 0;
     padding: 0;
+}
 
+#text-procurarPokemon{
+    font-weight: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 500px;
+    gap: 10px;
+}
+
+.pesquisa{
+    display: block;
+    text-align: center;
+    height: 100px;
+    gap: 10px;
 }
 
 img{
-    width: 50%;
-    height: 20%;
+    width: 200px;
+    height: 200px;
 }
 
 h1{
     font-size: 10px;
 }
 
+header img {
+    height: 225px;
+    width: 225px;
+}
 header{
-    height: 120px;
+    display: flex;
+    justify-content: center;
+    height: 15vh;
     background-color: brown;
 }
 
 main{
-    height: 100vh;
+    height: 70vh;
+    display: block;
+    text-align: center;
+    margin: 10px;
 }
 
 footer{
-    height: 120px;
+    height:15vh;
     background-color: brown;
 }
 
-.pesquisa{
-
-    margin: 50px;
+input {
     border: 1px solid black;
+    border-radius: 10px;
+    height: 20px;
 }
 
+p{
+    padding: 10px;
+}
