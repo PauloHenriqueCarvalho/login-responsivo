@@ -37,8 +37,7 @@
         box-sizing: border-box;
     }
 
-    html,
-    body {
+    html, body {
         text-align: center;
     }
 
@@ -48,8 +47,6 @@
         border-radius: 10px;
         margin: 10% auto 10px;
     }
-
-    
 
 
     #pic {
@@ -61,6 +58,11 @@
 
     .imgs {
         display: grid;
+    }
 
+    .pokemon {
+        display: grid;
+        justify-content: center;
+        align-items: center;
     }
 }

@@ -11,7 +11,7 @@ function loadpk(){
         console.log(data);
         document.getElementById("nome").innerHTML = data['name'];
         document.getElementById("numero").innerHTML = data['id'];
-
+        console.log(data);
         let img2 = data['sprites']['back_default'];
         document.getElementById('pic2').setAttribute('src',img2)
         let img = data['sprites']['front_default'];
